@@ -1,5 +1,5 @@
 {
-  "name": "smoothphp/cqrs-es-framework-laravel",
+  "name": "automaily/cqrs-es-framework-laravel",
   "description": "Laravel adapter for the SmoothPhp CQRS-ES-Framework",
   "keywords": [
     "cqrs",
@@ -23,12 +23,12 @@
     }
   ],
   "require": {
-    "php": ">=7.0.0",
-    "smoothphp/cqrs-es-framework": "~5.1.2",
-    "laravel/framework": "^5.1"
+    "php": ">=7.2.5",
+    "automaily/cqrs-es-framework": "dev-master",
+    "laravel/framework": "^5.8|^6.0"
   },
   "require-dev": {
-    "phpunit/phpunit": "4.*",
+    "phpunit/phpunit": "8.*",
     "scrutinizer/ocular": "~1.1"
   },
   "autoload": {
@@ -56,5 +56,11 @@
         "SmoothPhp\\LaravelAdapter\\ServiceProvider"
       ]
     }
-  }
+  },
+  "repositories": [
+      {
+        "type": "path",
+        "url": "/Users/deanlj/Dev/automaily/CQRS-ES-Framework"
+      }
+  ]
 }
