@@ -24,7 +24,7 @@
   ],
   "require": {
     "php": ">=7.2.5",
-    "automaily/cqrs-es-framework": "dev-master",
+    "automaily/cqrs-es-framework": "~5.1.4",
     "laravel/framework": "^5.8|^6.0"
   },
   "require-dev": {
@@ -56,11 +56,5 @@
         "SmoothPhp\\LaravelAdapter\\ServiceProvider"
       ]
     }
-  },
-  "repositories": [
-      {
-        "type": "path",
-        "url": "/Users/deanlj/Dev/automaily/CQRS-ES-Framework"
-      }
-  ]
+  }
 }
