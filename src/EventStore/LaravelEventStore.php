@@ -184,9 +184,4 @@ final class LaravelEventStore implements EventStore
             'type'        => $domainMessage->getType(),
         ];
     }
-
-    public function deleteStream(string $streamId): void
-    {
-        // TODO: Implement deleteStream() method.
-    }
 }
